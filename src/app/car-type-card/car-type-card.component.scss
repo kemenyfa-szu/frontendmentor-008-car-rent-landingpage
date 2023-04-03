@@ -1,0 +1,29 @@
+article.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3.2rem 3.2rem 3.1rem;
+    height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 2.65rem;
+    letter-spacing: 0.3px;
+    margin-bottom: 1.75rem;
+}
+p {
+    line-height: 1.67rem;
+    margin-bottom: 1.8rem;
+}
+img {
+    margin-bottom: 2.35rem;
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        margin-bottom: 1.5rem;
+    }
+}

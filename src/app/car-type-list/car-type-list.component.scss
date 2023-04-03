@@ -1,0 +1,18 @@
+.car-types-container {
+    max-width: 920px;
+    min-height: 500px;
+    display: flex;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.car-types-container > *{
+    flex: 1;
+}
+
+@media screen and (max-width: 700px){
+    .car-types-container {
+        max-width: 100%;
+        min-height: 100%;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,16 @@
+@use "../../_config" as config;
+
+button.learn-more {
+    font-size: 1rem;
+    background-color: config.$very-light-gray;
+    padding: 0.9rem 1.8rem;
+    letter-spacing: 0.5px;
+    border: 2px solid config.$very-light-gray;
+    border-radius: calc(2*0.9rem + 1rem + 4px);
+
+    &:hover {
+        cursor: pointer;
+        color: config.$very-light-gray;
+        background-color: transparent;
+    }
+}

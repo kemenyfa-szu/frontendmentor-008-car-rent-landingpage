@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+@use "./config" as *;
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 15px;
+}
+body {
+    background-color: $very-light-gray;
+    font-family: $ffamily-main;
+}
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.75rem 1.5rem;
+}
+button {
+    font-family: inherit
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $ffamily-headings;
+    font-weight: $fw-headings-bold;
+    color: $very-light-gray;
+    margin-bottom: 0.5rem;
+}
+p {
+    color: $transparent-white;
+    margin-bottom: 0.25rem;
+    font-weight: $fw-main-regular;
+}
+img {
+    display: block;
+}
+button {
+    border: none;
+}
+
+@media screen and (max-width: 700px) {
+    main {
+        align-items: flex-start;
+        margin-top: 3.2rem;
+    }
+}

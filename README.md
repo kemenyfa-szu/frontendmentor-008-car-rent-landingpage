@@ -1,27 +1,56 @@
-# Frontendmentor008CarRentLandingpage
+# Frontend Mentor - 3-column preview card component solution
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.0.
+This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Development server
+## Table of contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
-## Code scaffolding
+## Overview
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### The challenge
 
-## Build
+Users should be able to:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
-## Running unit tests
+### Screenshot
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Desktop](./src/assets/screenshot/screenshot-desktop.jpg)
+![Mobile](./src/assets/screenshot/screenshot-mobile.jpg)
 
-## Running end-to-end tests
+Taken with [FireShot](https://getfireshot.com/)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Links
 
-## Further help
+- Solution URL: [Solution Repo](https://github.com/kemenyfa-szu/frontendmentor-008-car-rent-landingpage)
+- Live Site URL: [Live Site](https://kemenyfa-szu.github.io/frontend-mentor/008-car-rend-landingpage/)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- SCSS
+- Flexbox
+- Mobile-first workflow
+- [Angular](https://angular.io/) - Framework
+
+### What I learned
+
+- Understanding the main strukture of Angular.
+- Creating new angular compontents.
+- Styling angular components with SASS.
+
+## Author
+
+- Website - [My Github Page](https://kemenyfa-szu.github.io/)
+- Frontend Mentor - [@kemenyfa-szu](https://www.frontendmentor.io/profile/kemenyfa-szu)
